@@ -4,13 +4,6 @@
 
 }
 
-.footer .logo {
-    display: block;
-    color: var(--light-text-color);
-    margin-bottom: 20px;
-
-}
-
 
 .map {
     font-weight: 400;
@@ -20,15 +13,7 @@
 
 }
 
-.footer-contacts {
-    color: rgba(255, 255, 255, 0.6);
-    line-height: 1.71;
-    font-weight: 400;
-}
 
-.footer-contacts__item:not(:last-child) {
-    margin-bottom: 9px;
-}
 
 .address {
     font-style: normal;
@@ -46,14 +31,6 @@
 
 }
 
-
-.footer-title {
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 1.14;
-    margin-bottom: 20px;
-    color: var(--light-text-color);
-}
 
 .footer-list {
     display: flex;

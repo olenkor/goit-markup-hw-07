@@ -6,9 +6,7 @@
 
 .benefits__item {
     flex-basis: calc((100% - 90px) / 4);
-
 }
-
 
 
 .benefits-icon__container {
@@ -22,30 +20,9 @@
 }
 
 
-.benefits__title {
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 1.14;
-    margin-bottom: 10px;
-
-}
-
-
 .benefits__text {
     line-height: 1.71;
     color: var(--secondary-text-color);
 }
 
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}

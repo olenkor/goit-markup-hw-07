@@ -23,16 +23,7 @@
     margin-right: 50px;
 }
 
-.logo {
-    font-family: var(--accent-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.18;
-    text-decoration: none;
-    color: inherit;
-    margin-right: 93px;
 
-}
 
 .nav-list__link {
     display: block;
@@ -70,36 +61,10 @@
 }
 
 
-
-
 .nav-list__link_current {
     color: var(--accent-color);
 
 }
 
-.contacts__link {
-    display: flex;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-    list-style: none;
-    text-decoration: none;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    align-items: center;
-    flex-direction: row-reverse;
-    transition: color var(--transition-time) var(--transition);
-
-    &:hover,
-    &:focus {
-            color: var(--accent-color);
-        }
-}
 
 
-
-.contact-link__icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
